@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: DarkSlateGray;
+}
+
+/*login da pagina*/
+
+#login {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background-color: #12054e;
+  padding: 80px;
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+.card-header {
+  padding-bottom: 50px;
+  opacity: 0.8;
+  color: white;
+}
+.card-header::after {
+  content: normal;
+  width: 70px;
+  height: 8px;
+  background-color: rgb(248, 244, 248);
+  display: block;
+  margin-top: -17px;
+  margin-left: -5px;
+}
+
+.carde-content label {
+  color: rgb(243, 236, 236);
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.carde-content-area {
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.card-content-area input {
+  margin-top: 30px;
+  padding: 3px;
+  border: 2px;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.card-content input {
+  margin-top: 30px;
+  width: 250px;
+  padding: 3px;
+  border-bottom: 1px solid #e7dede;
+  border-width: 1px;
+  border-style: solid;
+  border-color: wheat;
+}
+
+/*login da pagina*/
+.card-footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*configuraçao da barra do login */
+.card-footer .submit {
+  width: 100%;
+  height: 40px;
+  background-color: #a13854;
+  border: none;
+  color: #e1e1e1;
+  margin: 10px 0;
+}
+/*configuraçao do Login*/
+.card-footer a {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
